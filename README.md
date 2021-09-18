@@ -1,4 +1,4 @@
-# primenr-HTML
+# primer-HTML
 Curso indtroduccion HTML UdeA-MinTic
 
 
