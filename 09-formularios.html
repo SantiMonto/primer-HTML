@@ -9,34 +9,44 @@
 <body>
     <h1>Formularios</h1>
     <!--Elementos que reciben info-->
-    <form>
-        <input>
-    </form>
     <!--Mostrar informacion-->
-    <form>
-        <label>
-            Nombre:
-            <input type="text">
-        </label>
-    </form>
     <form action="https://www.google.com/search" method="GET">
         <label for="name">Nombre</label>
         <input type="text" id="name" name="q">
-
         <button type="submit">Enviar</button>
         <!--Limpiar el formulario-->
-        <button type="reset">Limpiar</button>
+<!--         <button type="reset">Limpiar</button>
 
-        <input type="submit" value="Click">
+        <input type="submit" value="Click"> -->
 
     </form>
     <form method="GET">
-        <!--<form method="POST" action=>-->
+        <fieldset>
+            <legend>Datos personales</legend>
+                    <!--<form method="POST" action=>-->
         <label for="name">Nombre</label>
         <input type="text" id="name" name="nombre">
         <br>
         <label for="password">Password</label>
         <input type="password" id="password" name="password">
+        </fieldset>
+
+        <label for="url">URL</label>
+        <input type="url" id="url">
+        <button>Ir a URL</button>
+        <br>
+        <label for="check">Checkbox</label>
+        <input type="checkbox" id="check">
+        <br>
+        <label for="radio">Radio</label>
+        <input type="radio" id="radio">
+        <br>
+        <label for="radio">Radio varias opciones</label>
+        <br>
+        Masculino<input type="radio" name="genero">
+        Femenino<input type="radio" name="genero">
+        Otro<input type="radio" name="genero">
+        <br>
 
     </form>
 
