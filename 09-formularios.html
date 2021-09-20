@@ -19,15 +19,24 @@
             <input type="text">
         </label>
     </form>
-    <form>
+    <form action="https://www.google.com/search" method="GET">
         <label for="name">Nombre</label>
-        <input type="text" id="name">
+        <input type="text" id="name" name="q">
 
         <button type="submit">Enviar</button>
         <!--Limpiar el formulario-->
         <button type="reset">Limpiar</button>
 
         <input type="submit" value="Click">
+
+    </form>
+    <form method="GET">
+        <!--<form method="POST" action=>-->
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="nombre">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
 
     </form>
 
